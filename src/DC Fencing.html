@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D&amp;C Fencing — Fence Installation &amp; Repair · Amarillo, Texas</title>
+<meta name="description" content="Veteran owned and operated fence company in Amarillo, TX. Chain link, barbwire, hog panel and chicken wire — installation and repair. Free estimates. (806) 282-6328.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0d1828; --navy:#13233a; --navy-2:#1b2f4b;
+  --red:#c61531; --red-d:#a30f27;
+  --steel:#6a8dc3; --steel-l:#a9bfdf;
+  --bone:#f3f0ea; --paper:#faf8f4; --dirt:#b4583a;
+  --line:rgba(13,24,40,.12); --line-l:rgba(255,255,255,.14);
+  --cond:"Archivo",sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --pad:clamp(20px,4vw,64px); --max:1440px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Archivo",sans-serif;font-variation-settings:"wdth" 100;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.disp{font-family:var(--cond);font-stretch:68%;font-variation-settings:"wdth" 68;font-weight:800;text-transform:uppercase;line-height:.9;letter-spacing:-.005em}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+.eyebrow::before{content:"";width:28px;height:2px;background:currentColor}
+.link-pattern{background-image:repeating-linear-gradient(45deg,var(--lp,rgba(255,255,255,.07)) 0 1px,transparent 1px 20px),repeating-linear-gradient(-45deg,var(--lp,rgba(255,255,255,.07)) 0 1px,transparent 1px 20px)}
+.stars{display:inline-flex;gap:6px}
+.stars i{width:9px;height:9px;background:currentColor;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 26px;font-family:var(--cond);font-variation-settings:"wdth" 80;font-weight:700;font-size:15px;letter-spacing:.08em;text-transform:uppercase;transition:background .25s,color .25s,transform .25s}
+.btn .arr{width:18px;height:2px;background:currentColor;position:relative;transition:width .25s}
+.btn .arr::after{content:"";position:absolute;right:0;top:-4px;width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg)}
+.btn:hover .arr{width:28px}
+.btn-red{background:var(--red);color:#fff}.btn-red:hover{background:var(--red-d)}
+.btn-ghost{box-shadow:inset 0 0 0 1.5px currentColor}.btn-ghost:hover{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 1.5px #fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:var(--red)}
+
+/* ---------- top bar + nav ---------- */
+.topbar{background:var(--ink);color:#d9dfe8;font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:40px;gap:20px}
+.topbar .tb-l{display:flex;gap:28px;align-items:center}
+.topbar .tb-l span{display:flex;align-items:center;gap:8px}
+.topbar .dot{width:7px;height:7px;border-radius:50%;background:#4ec27a;box-shadow:0 0 0 3px rgba(78,194,122,.2)}
+.topbar .dot.off{background:#8a94a3;box-shadow:none}
+.topbar a:hover{color:#fff}
+header.nav{position:sticky;top:0;z-index:50;background:rgba(250,248,244,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transition:box-shadow .3s}
+header.nav.scrolled{box-shadow:0 10px 30px -18px rgba(13,24,40,.35)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:84px;transition:height .3s}
+header.nav.scrolled .wrap{height:68px}
+.brand{display:flex;align-items:center;gap:14px}
+.brand img{width:56px;height:56px;transition:width .3s,height .3s}
+header.nav.scrolled .brand img{width:46px;height:46px}
+.brand b{display:block;font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:24px;letter-spacing:.01em;text-transform:uppercase;line-height:1}
+.brand small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;color:#5b6676;text-transform:uppercase;margin-top:4px}
+.nav ul{display:flex;gap:6px;list-style:none}
+.nav ul a{display:block;padding:10px 16px;font-family:var(--cond);font-variation-settings:"wdth" 82;font-weight:600;font-size:15px;letter-spacing:.07em;text-transform:uppercase;position:relative}
+.nav ul a::after{content:"";position:absolute;left:16px;right:16px;bottom:4px;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.nav ul a:hover::after,.nav ul a.on::after{transform:scaleX(1)}
+.nav-r{display:flex;align-items:center;gap:18px}
+.nav-phone{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+.nav-phone span{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:#5b6676;text-transform:uppercase}
+.nav-phone b{font-family:var(--cond);font-variation-settings:"wdth" 75;font-weight:800;font-size:22px;letter-spacing:.02em}
+.nav .btn{height:48px}
+.burger{display:none;width:46px;height:46px;position:relative}
+.burger i{position:absolute;left:11px;right:11px;height:2px;background:var(--ink);transition:.3s}
+.burger i:nth-child(1){top:16px}.burger i:nth-child(2){top:23px}.burger i:nth-child(3){top:30px}
+body.menu-open .burger i:nth-child(1){top:23px;transform:rotate(45deg)}
+body.menu-open .burger i:nth-child(2){opacity:0}
+body.menu-open .burger i:nth-child(3){top:23px;transform:rotate(-45deg)}
+.mmenu{position:fixed;inset:0;z-index:40;background:var(--ink);color:#fff;padding:140px var(--pad) 40px;display:flex;flex-direction:column;gap:6px;transform:translateY(-100%);transition:transform .5s cubic-bezier(.7,0,.2,1)}
+body.menu-open .mmenu{transform:none}
+.mmenu a.big{font-size:56px;padding:4px 0;border-bottom:1px solid var(--line-l)}
+.mmenu .btn{margin-top:28px;align-self:flex-start}
+
+/* ---------- hero ---------- */
+.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.hero .grid{display:grid;grid-template-columns:1.15fr .85fr;min-height:calc(100vh - 124px);max-height:960px}
+.hero-l{position:relative;padding:clamp(48px,7vw,110px) var(--pad) 48px max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));display:flex;flex-direction:column;justify-content:space-between;gap:48px}
+.hero-l::before{content:"";position:absolute;inset:0;--lp:rgba(255,255,255,.045);background-image:repeating-linear-gradient(45deg,var(--lp) 0 1px,transparent 1px 26px),repeating-linear-gradient(-45deg,var(--lp) 0 1px,transparent 1px 26px);mask-image:linear-gradient(110deg,#000 10%,transparent 70%);-webkit-mask-image:linear-gradient(110deg,#000 10%,transparent 70%);pointer-events:none}
+.hero .eyebrow{color:var(--steel-l)}
+.hero h1{font-size:clamp(64px,9.2vw,156px);margin:26px 0 0;position:relative}
+.hero h1 em{font-style:normal;color:var(--red);display:inline-block}
+.hero h1 .ln{display:block;overflow:hidden}
+.hero h1 .ln>span{display:block;transform:translateY(105%);animation:rise 1s cubic-bezier(.2,.8,.2,1) forwards}
+.hero h1 .ln:nth-child(2)>span{animation-delay:.12s}.hero h1 .ln:nth-child(3)>span{animation-delay:.24s}
+@keyframes rise{to{transform:none}}
+.hero-sub{max-width:520px;font-size:19px;color:#c9d3e1;margin-top:30px;text-wrap:pretty;opacity:0;animation:fade .9s .55s forwards}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:38px;opacity:0;animation:fade .9s .7s forwards}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.hero-facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:0;border-top:1px solid var(--line-l);position:relative}
+.hero-facts div{padding:22px 40px 0 0;margin-right:40px;border-right:1px solid var(--line-l)}
+.hero-facts div:last-child{border:0}
+.hero-facts b{display:block;font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:30px;text-transform:uppercase;line-height:1}
+.hero-facts span{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--steel-l);margin-top:8px}
+.hero-r{position:relative;overflow:hidden;background:#0a1220}
+.hero-r .slide{position:absolute;inset:0;opacity:0;transition:opacity 1.4s ease}
+.hero-r .slide.on{opacity:1}
+.hero-r .slide img{width:100%;height:100%;object-fit:cover;transform:scale(1.12);transition:transform 7s linear}
+.hero-r .slide.on img{transform:scale(1.0)}
+.hero-r::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,18,32,.0) 55%,rgba(10,18,32,.75));pointer-events:none}
+.hero-cap{position:absolute;left:28px;right:28px;bottom:26px;z-index:2;display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
+.hero-cap .cap{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.hero-cap .cap b{display:block;color:var(--steel-l);font-weight:400;margin-bottom:4px}
+.hero-ticks{display:flex;gap:6px}
+.hero-ticks button{width:34px;height:3px;background:rgba(255,255,255,.3);position:relative;overflow:hidden}
+.hero-ticks button i{position:absolute;inset:0;background:#fff;transform:scaleX(0);transform-origin:left}
+.hero-ticks button.on i{animation:tick 6s linear forwards}
+@keyframes tick{to{transform:scaleX(1)}}
+.seal{position:absolute;z-index:3;left:-70px;top:56px;width:140px;height:140px;border-radius:50%;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
+.seal img{width:100%;height:100%}
+.seal svg{position:absolute;inset:-26px;width:calc(100% + 52px);height:calc(100% + 52px);animation:spin 26s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ---------- marquee ---------- */
+.marq{background:var(--red);color:#fff;overflow:hidden;border-top:1px solid rgba(255,255,255,.15)}
+.marq-track{display:flex;width:max-content;animation:marq 38s linear infinite}
+.marq-track span{display:flex;align-items:center;gap:34px;padding-right:34px;font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:30px;text-transform:uppercase;letter-spacing:.02em;height:68px;white-space:nowrap}
+.marq-track span i{width:12px;height:12px;background:#fff;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* ---------- section scaffolding ---------- */
+section{position:relative}
+.sec{padding:clamp(80px,10vw,150px) 0}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:clamp(40px,5vw,72px)}
+.sec-head h2{font-size:clamp(48px,6.4vw,104px);margin-top:18px}
+.sec-head p{max-width:480px;color:#4a5566;font-size:18px;text-wrap:pretty;justify-self:end}
+.idx{font-family:var(--mono);font-size:12px;color:#8a94a3;letter-spacing:.1em}
+
+/* ---------- intro / about ---------- */
+.intro .grid{display:grid;grid-template-columns:5fr 7fr;gap:clamp(40px,6vw,100px);align-items:start}
+.intro-photo{position:relative}
+.intro-photo .ph{aspect-ratio:4/5;overflow:hidden;background:#ddd}
+.intro-photo .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.intro-photo .tag{position:absolute;right:-24px;bottom:40px;background:var(--ink);color:#fff;padding:22px 26px;max-width:250px}
+.intro-photo .tag .stars{color:var(--red);margin-bottom:12px}
+.intro-photo .tag b{display:block;font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:26px;line-height:1;text-transform:uppercase}
+.intro-photo .tag span{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--steel-l);margin-top:8px}
+.intro h2{font-size:clamp(52px,7vw,120px);margin:22px 0 40px}
+.intro h2 em{font-style:normal;color:var(--red)}
+.intro .lede{font-size:clamp(21px,1.7vw,26px);line-height:1.4;font-weight:500;letter-spacing:-.005em;text-wrap:pretty;max-width:760px}
+.intro .cols{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:40px;padding-top:36px;border-top:1px solid var(--line);color:#3c4757;max-width:760px}
+.intro .cols p{text-wrap:pretty}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);margin-top:56px;border-top:2px solid var(--ink)}
+.pillars div{padding:22px 18px 0 0}
+.pillars b{font-family:var(--cond);font-variation-settings:"wdth" 75;font-weight:800;font-size:22px;text-transform:uppercase;display:block}
+.pillars span{font-family:var(--mono);font-size:11px;color:#8a94a3;letter-spacing:.1em}
+
+/* ---------- fence types ---------- */
+.types{background:var(--bone)}
+.types .board{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,80px);align-items:stretch}
+.tlist{list-style:none;border-top:1px solid var(--line)}
+.tlist li{border-bottom:1px solid var(--line)}
+.tlist button{width:100%;display:grid;grid-template-columns:56px 1fr 40px;align-items:center;text-align:left;padding:26px 0;gap:10px;transition:padding .35s}
+.tlist .n{font-family:var(--mono);font-size:12px;color:#8a94a3}
+.tlist h3{font-family:var(--cond);font-variation-settings:"wdth" 68;font-weight:800;font-size:clamp(40px,4.4vw,72px);text-transform:uppercase;line-height:.95;color:#a3abb7;transition:color .3s}
+.tlist .plus{width:40px;height:40px;border-radius:50%;box-shadow:inset 0 0 0 1.5px #c3c9d2;position:relative;transition:.3s}
+.tlist .plus::before,.tlist .plus::after{content:"";position:absolute;left:50%;top:50%;width:14px;height:2px;background:#8a94a3;transform:translate(-50%,-50%);transition:.3s}
+.tlist .plus::after{transform:translate(-50%,-50%) rotate(90deg)}
+.tlist li.on h3{color:var(--ink)}
+.tlist li.on .plus{background:var(--red);box-shadow:none}
+.tlist li.on .plus::before,.tlist li.on .plus::after{background:#fff}
+.tlist li.on .plus::after{transform:translate(-50%,-50%) rotate(0)}
+.tlist .body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.2,.8,.2,1)}
+.tlist li.on .body{grid-template-rows:1fr}
+.tlist .body>div{overflow:hidden}
+.tlist .body p{padding:0 50px 28px 66px;color:#3c4757;max-width:620px;text-wrap:pretty}
+.tlist .body .chips{display:flex;gap:8px;flex-wrap:wrap;padding:0 0 30px 66px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:7px 12px;box-shadow:inset 0 0 0 1px var(--line);background:#fff}
+.tview{position:sticky;top:110px;height:min(78vh,760px);overflow:hidden;background:var(--ink)}
+.tview figure{position:absolute;inset:0;opacity:0;transition:opacity .7s,transform 1.2s cubic-bezier(.2,.8,.2,1);transform:scale(1.06)}
+.tview figure.on{opacity:1;transform:none}
+.tview img{width:100%;height:100%;object-fit:cover}
+.tview figcaption{position:absolute;left:0;right:0;bottom:0;padding:60px 28px 24px;background:linear-gradient(transparent,rgba(10,18,32,.8));color:#fff;display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
+.tview figcaption b{font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:34px;text-transform:uppercase;line-height:1}
+.tview figcaption span{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--steel-l)}
+.tview .src{position:absolute;top:18px;right:18px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:rgba(10,18,32,.55);padding:6px 10px;backdrop-filter:blur(6px)}
+
+/* ---------- before / after ---------- */
+.ba{background:var(--ink);color:#fff;overflow:hidden}
+.ba .sec-head p{color:#b6c1d1}
+.ba .sec-head .eyebrow{color:var(--steel-l)}
+.ba-wrap{display:grid;grid-template-columns:1fr 340px;gap:clamp(24px,4vw,60px);align-items:stretch}
+.ba-stage{position:relative;aspect-ratio:4/3;overflow:hidden;user-select:none;touch-action:none;cursor:ew-resize;background:#000}
+.ba-stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 62%;pointer-events:none}
+.ba-stage .after{clip-path:inset(0 0 0 var(--x,50%))}
+.ba-stage .bar{position:absolute;top:0;bottom:0;left:var(--x,50%);width:2px;background:#fff;transform:translateX(-1px)}
+.ba-stage .knob{position:absolute;top:50%;left:var(--x,50%);width:64px;height:64px;border-radius:50%;background:var(--red);transform:translate(-50%,-50%);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.ba-stage .knob::before,.ba-stage .knob::after{content:"";position:absolute;width:10px;height:10px;border-top:2px solid #fff;border-left:2px solid #fff;top:50%}
+.ba-stage .knob::before{left:16px;transform:translateY(-50%) rotate(-45deg)}
+.ba-stage .knob::after{right:16px;transform:translateY(-50%) rotate(135deg)}
+.ba-stage .lbl{position:absolute;top:20px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:8px 12px;background:rgba(10,18,32,.6);backdrop-filter:blur(6px)}
+.ba-stage .lbl.l{left:20px}.ba-stage .lbl.r{right:20px;background:var(--red)}
+.ba-side{display:flex;flex-direction:column;justify-content:space-between;gap:30px;border-top:1px solid var(--line-l);padding-top:26px}
+.ba-side ol{list-style:none;counter-reset:s}
+.ba-side li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;padding:18px 0;border-bottom:1px solid var(--line-l)}
+.ba-side li::before{content:"0" counter(s);font-family:var(--mono);font-size:12px;color:var(--steel-l);padding-top:4px}
+.ba-side li b{font-family:var(--cond);font-variation-settings:"wdth" 75;font-weight:800;font-size:22px;text-transform:uppercase;display:block;line-height:1.1}
+.ba-side li span{color:#9eabbe;font-size:15px}
+.ba-thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.ba-thumbs button{aspect-ratio:1;overflow:hidden;opacity:.5;transition:opacity .3s;outline:2px solid transparent;outline-offset:2px}
+.ba-thumbs button.on{opacity:1;outline-color:var(--red)}
+.ba-thumbs img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- projects gallery ---------- */
+.gal-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.gal-filters button{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:11px 16px;box-shadow:inset 0 0 0 1px var(--line);transition:.25s}
+.gal-filters button:hover{box-shadow:inset 0 0 0 1px var(--ink)}
+.gal-filters button.on{background:var(--ink);color:#fff;box-shadow:none}
+.gal{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:120px;gap:12px}
+.gal a{position:relative;overflow:hidden;background:#d8d4cc;transition:opacity .4s,transform .4s}
+.gal a.hide{display:none}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.8,.2,1)}
+.gal a:hover img{transform:scale(1.05)}
+.gal a .cap{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;background:linear-gradient(transparent,rgba(10,18,32,.78));color:#fff;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;display:flex;justify-content:space-between;transform:translateY(8px);opacity:0;transition:.35s}
+.gal a:hover .cap{opacity:1;transform:none}
+.g-a{grid-column:span 5;grid-row:span 5}
+.g-b{grid-column:span 4;grid-row:span 3}
+.g-c{grid-column:span 3;grid-row:span 3}
+.g-d{grid-column:span 3;grid-row:span 2}
+.g-e{grid-column:span 4;grid-row:span 2}
+.g-f{grid-column:span 4;grid-row:span 4}
+.g-g{grid-column:span 4;grid-row:span 4}
+.g-h{grid-column:span 4;grid-row:span 4}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(8,14,24,.96);display:none;align-items:center;justify-content:center}
+.lb.open{display:flex}
+.lb img{max-width:min(88vw,1100px);max-height:82vh;object-fit:contain}
+.lb .lb-cap{position:absolute;left:var(--pad);bottom:28px;color:#fff;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.lb .lb-cap b{color:var(--steel-l);font-weight:400;margin-right:14px}
+.lb button{position:absolute;color:#fff;width:56px;height:56px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(255,255,255,.3);transition:.25s;font-size:22px}
+.lb button:hover{background:var(--red);box-shadow:none}
+.lb .x{top:24px;right:24px}.lb .pv{left:24px;top:50%;transform:translateY(-50%)}.lb .nx{right:24px;top:50%;transform:translateY(-50%)}
+
+/* ---------- the crew / values ---------- */
+.crew{background:var(--navy);color:#fff;overflow:hidden}
+.crew .grid{display:grid;grid-template-columns:1fr 1fr;min-height:720px}
+.crew-photo{position:relative;overflow:hidden}
+.crew-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.crew-txt{padding:clamp(60px,8vw,120px) var(--pad);position:relative;display:flex;flex-direction:column;justify-content:center}
+.crew-txt::before{content:"";position:absolute;inset:0;--lp:rgba(255,255,255,.04);background-image:repeating-linear-gradient(45deg,var(--lp) 0 1px,transparent 1px 26px),repeating-linear-gradient(-45deg,var(--lp) 0 1px,transparent 1px 26px);pointer-events:none}
+.crew .eyebrow{color:var(--steel-l)}
+.crew h2{font-size:clamp(52px,6vw,100px);margin:22px 0 30px}
+.crew h2 em{font-style:normal;color:var(--red)}
+.crew p{color:#c3cede;font-size:18px;max-width:560px;text-wrap:pretty}
+.vals{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:44px;border-top:1px solid var(--line-l);max-width:600px}
+.vals div{padding:20px 0;border-bottom:1px solid var(--line-l);display:flex;align-items:center;gap:14px;font-family:var(--cond);font-variation-settings:"wdth" 75;font-weight:700;font-size:22px;text-transform:uppercase}
+.vals div:nth-child(odd){padding-right:20px;border-right:1px solid var(--line-l)}
+.vals div:nth-child(even){padding-left:22px}
+.vals i{width:10px;height:10px;background:var(--red);transform:rotate(45deg);flex:none}
+
+/* ---------- quote ---------- */
+.quote{padding:clamp(90px,11vw,170px) 0;text-align:center;background:var(--paper);position:relative;overflow:hidden}
+.quote::before{content:"";position:absolute;inset:0;--lp:rgba(13,24,40,.05);background-image:repeating-linear-gradient(45deg,var(--lp) 0 1px,transparent 1px 30px),repeating-linear-gradient(-45deg,var(--lp) 0 1px,transparent 1px 30px);mask-image:radial-gradient(ellipse at center,#000 0,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at center,#000 0,transparent 70%)}
+.quote .stars{color:var(--red);gap:10px;margin-bottom:34px}
+.quote .stars i{width:18px;height:18px}
+.quote blockquote{font-family:var(--cond);font-variation-settings:"wdth" 68;font-weight:800;text-transform:uppercase;font-size:clamp(54px,8.5vw,148px);line-height:.9;max-width:1200px;margin:0 auto;position:relative}
+.quote blockquote em{font-style:normal;color:var(--red)}
+.quote cite{display:block;margin-top:34px;font-style:normal;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5b6676;position:relative}
+.quote .rating{display:inline-flex;gap:28px;margin-top:46px;padding:16px 26px;box-shadow:inset 0 0 0 1px var(--line);background:#fff;position:relative;align-items:center}
+.quote .rating b{font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:40px;line-height:1}
+.quote .rating span{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#5b6676;text-align:left}
+
+/* ---------- process ---------- */
+.proc{background:var(--bone)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--ink);position:relative}
+.step{padding:34px 34px 0 0;position:relative}
+.step:not(:last-child){border-right:1px solid var(--line);margin-right:34px}
+.step .num{font-family:var(--cond);font-variation-settings:"wdth" 62;font-weight:800;font-size:150px;line-height:.8;color:transparent;-webkit-text-stroke:1.5px var(--ink);opacity:.9}
+.step h3{font-family:var(--cond);font-variation-settings:"wdth" 72;font-weight:800;font-size:34px;text-transform:uppercase;margin:28px 0 12px;line-height:1}
+.step p{color:#3c4757;max-width:360px;text-wrap:pretty}
+.step .ph{margin-top:30px;aspect-ratio:16/11;overflow:hidden}
+.step .ph img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- contact ---------- */
+.contact{background:var(--ink);color:#fff}
+.contact .grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,100px)}
+.contact h2{font-size:clamp(60px,8vw,140px);margin:22px 0 34px}
+.contact h2 em{font-style:normal;color:var(--red)}
+.contact .eyebrow{color:var(--steel-l)}
+.bigphone{display:inline-block;font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:clamp(44px,5vw,78px);line-height:1;letter-spacing:.01em;border-bottom:3px solid var(--red);padding-bottom:6px;transition:color .25s}
+.bigphone:hover{color:var(--red)}
+.cinfo{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:56px;padding-top:34px;border-top:1px solid var(--line-l)}
+.cinfo h4{font-family:var(--mono);font-weight:400;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--steel-l);margin-bottom:14px}
+.cinfo p,.cinfo a{color:#d6deea;font-size:16px}
+.cinfo a:hover{color:#fff}
+.hours{list-style:none;font-size:15px}
+.hours li{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line-l);color:#c3cede;gap:20px}
+.hours li.today{color:#fff;font-weight:600}
+.hours li.today span:first-child::after{content:" · Today";color:var(--red);font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+.form{background:var(--paper);color:var(--ink);padding:clamp(28px,4vw,52px);position:relative}
+.form::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:repeating-linear-gradient(90deg,var(--red) 0 40px,#fff 40px 52px,var(--steel) 52px 92px,#fff 92px 104px)}
+.form h3{font-family:var(--cond);font-variation-settings:"wdth" 72;font-weight:800;font-size:40px;text-transform:uppercase;line-height:1}
+.form .sub{color:#5b6676;margin:10px 0 28px}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{position:relative;margin-bottom:16px}
+.field label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#5b6676;margin-bottom:8px}
+.field input,.field textarea,.field select{width:100%;font:inherit;font-size:16px;padding:14px 14px;border:1px solid #cfd3d9;background:#fff;color:var(--ink);border-radius:0;transition:border-color .2s,box-shadow .2s;appearance:none}
+.field textarea{min-height:120px;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{outline:0;border-color:var(--ink);box-shadow:0 0 0 3px rgba(106,141,195,.25)}
+.ftype{display:flex;flex-wrap:wrap;gap:8px}
+.ftype input{position:absolute;opacity:0;pointer-events:none}
+.ftype label{margin:0;padding:10px 14px;box-shadow:inset 0 0 0 1px #cfd3d9;background:#fff;cursor:pointer;color:var(--ink);transition:.2s}
+.ftype input:checked+label{background:var(--ink);color:#fff;box-shadow:none}
+.form .btn{width:100%;justify-content:center;margin-top:10px}
+.form .fine{font-size:13px;color:#7a8494;margin-top:14px;text-align:center}
+.form .ok{display:none;padding:30px 0;text-align:center}
+.form.sent .ok{display:block}.form.sent form{display:none}
+.form .ok b{display:block;font-family:var(--cond);font-variation-settings:"wdth" 72;font-weight:800;font-size:44px;text-transform:uppercase;line-height:1;margin:14px 0 10px}
+
+/* ---------- footer ---------- */
+footer{background:#08111d;color:#9eabbe;padding:70px 0 34px;font-size:15px}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;padding-bottom:50px;border-bottom:1px solid var(--line-l)}
+.fgrid h5{font-family:var(--mono);font-weight:400;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin-bottom:16px}
+.fgrid ul{list-style:none;display:grid;gap:8px}
+.fgrid a:hover{color:#fff}
+.fbrand{display:flex;gap:18px;align-items:center}
+.fbrand img{width:84px;height:84px}
+.fbrand b{font-family:var(--cond);font-variation-settings:"wdth" 70;font-weight:800;font-size:30px;color:#fff;text-transform:uppercase;line-height:1;display:block}
+.fbig{font-family:var(--cond);font-variation-settings:"wdth" 62;font-weight:900;text-transform:uppercase;font-size:clamp(80px,17vw,290px);line-height:.8;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.14);text-align:center;margin:50px 0 30px;letter-spacing:-.01em;white-space:nowrap}
+.fbot{display:flex;justify-content:space-between;gap:20px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;flex-wrap:wrap}
+
+/* sticky mobile call bar */
+.callbar{display:none}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv-d1{transition-delay:.1s}.rv-d2{transition-delay:.2s}.rv-d3{transition-delay:.3s}
+
+/* ---------- responsive ---------- */
+@media (max-width:1100px){
+  .nav ul,.nav-phone{display:none}
+  .burger{display:block}
+  .hero .grid{grid-template-columns:1fr;max-height:none;min-height:0}
+  .hero-r{height:62vh;min-height:420px}
+  .seal{left:auto;right:24px;top:-60px;width:110px;height:110px}
+  .intro .grid,.types .board,.ba-wrap,.crew .grid,.contact .grid{grid-template-columns:1fr}
+  .tview{position:relative;top:0;height:60vh;order:-1}
+  .crew-photo{min-height:60vh}
+  .sec-head{grid-template-columns:1fr}.sec-head p{justify-self:start}
+  .intro-photo .tag{right:16px}
+  .gal{grid-auto-rows:90px}
+  .fgrid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  body{font-size:16px}
+  .topbar .tb-l span:not(:first-child){display:none}
+  .nav .btn{display:none}
+  .hero-facts{grid-template-columns:1fr 1fr 1fr}
+  .hero-facts div{padding-right:12px;margin-right:12px}
+  .hero-facts b{font-size:22px}
+  .intro .cols,.pillars{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr}
+  .step{padding-right:0;margin-right:0!important;border-right:0!important;border-bottom:1px solid var(--line);padding-bottom:34px}
+  .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+  .gal a{grid-column:span 1!important;grid-row:span 2!important}
+  .gal a:nth-child(3n+1){grid-column:span 2!important}
+  .frow,.cinfo{grid-template-columns:1fr}
+  .vals{grid-template-columns:1fr}
+  .vals div:nth-child(odd){border-right:0;padding-right:0}.vals div:nth-child(even){padding-left:0}
+  .fgrid{grid-template-columns:1fr}
+  .tlist .body p,.tlist .body .chips{padding-left:0;padding-right:0}
+  .tlist button{grid-template-columns:40px 1fr 40px}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;box-shadow:0 -10px 30px rgba(0,0,0,.2)}
+  .callbar a{height:58px;display:flex;align-items:center;justify-content:center;font-family:var(--cond);font-variation-settings:"wdth" 78;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+  .callbar a:first-child{background:var(--ink);color:#fff}.callbar a:last-child{background:var(--red);color:#fff}
+  footer{padding-bottom:90px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.hero h1 .ln>span{transform:none}.hero-sub,.hero-cta{opacity:1}}
+</style>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#13233a"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><circle cx="200" cy="200" r="120" fill="#c61531" stroke="#6a8dc3" stroke-width="8"/><text x="200" y="222" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="64" fill="#fff">D&amp;C</text></svg></template>
+
+<!-- top bar -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="tb-l">
+      <span><i class="dot" id="openDot"></i><b id="openTxt" style="font-weight:400">Mon–Fri 8 AM – 8 PM</b></span>
+      <span>Veteran Owned &amp; Operated</span>
+      <span>Free Estimates</span>
+    </div>
+    <a href="mailto:dakota.brundige1993@gmail.com">dakota.brundige1993@gmail.com</a>
+  </div>
+</div>
+
+<!-- nav -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="D&amp;C Fencing home">
+      <img src="../assets/logo.png" alt="D&amp;C Fencing seal">
+      <span><b>D&amp;C Fencing</b><small>Amarillo · Texas</small></span>
+    </a>
+    <ul>
+      <li><a href="#fences">Fences</a></li>
+      <li><a href="#work">Our Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-r">
+      <a class="nav-phone" href="tel:+18062826328"><span>Call or text</span><b>806-282-6328</b></a>
+      <a class="btn btn-red" href="#contact">Free Estimate <i class="arr"></i></a>
+      <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+<nav class="mmenu" aria-label="Mobile">
+  <a class="big disp" href="#fences">Fences</a>
+  <a class="big disp" href="#work">Our Work</a>
+  <a class="big disp" href="#about">About</a>
+  <a class="big disp" href="#process">Process</a>
+  <a class="big disp" href="#contact">Contact</a>
+  <a class="btn btn-red" href="tel:+18062826328">Call 806-282-6328 <i class="arr"></i></a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="top" data-screen-label="01 Hero">
+  <div class="grid">
+    <div class="hero-l">
+      <div>
+        <span class="eyebrow">Fence Installation &amp; Repair · Amarillo, TX</span>
+        <h1 class="disp">
+          <span class="ln"><span>Straight lines.</span></span>
+          <span class="ln"><span>Solid posts.</span></span>
+          <span class="ln"><span><em>Built right.</em></span></span>
+        </h1>
+        <p class="hero-sub">Chain link, barbwire, hog panel and chicken wire for homes, ranches and everything in between. Family‑oriented, veteran‑owned, and we take care of everything.</p>
+        <div class="hero-cta">
+          <a class="btn btn-red" href="#contact">Get a Free Estimate <i class="arr"></i></a>
+          <a class="btn btn-ghost" href="#work">See Our Work <i class="arr"></i></a>
+        </div>
+      </div>
+      <div class="hero-facts">
+        <div><b>Veteran</b><span>Owned &amp; Operated</span></div>
+        <div><b>Free</b><span>Estimates</span></div>
+        <div><b>5.0 ★</b><span>HomeAdvisor Rating</span></div>
+      </div>
+    </div>
+    <div class="hero-r" id="heroSlides">
+      <div class="seal">
+        <svg viewBox="0 0 200 200" aria-hidden="true"><defs><path id="circ" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs><text fill="#fff" style="font-family:'JetBrains Mono';font-size:11.5px;letter-spacing:4.2px;text-transform:uppercase"><textPath href="#circ">Veteran owned · Amarillo, Texas · Free estimates · </textPath></text></svg>
+        <img src="../assets/logo.png" alt="">
+      </div>
+      <div class="slide on" data-cap="Wood posts &amp; pipe gate" data-k="Ranch"><img src="../assets/p7.jpg" alt="Wood post fence with pipe gate"></div>
+      <div class="slide" data-cap="T‑post &amp; barbwire run" data-k="Ranch"><img src="../assets/p6.jpg" alt="T-post barbwire fence across open land"></div>
+      <div class="slide" data-cap="Chain link, finished" data-k="Residential"><img src="../assets/p27.jpg" alt="Finished chain link fence"></div>
+      <div class="hero-cap">
+        <div class="cap"><b id="capK">Ranch</b><span id="capT">Wood posts &amp; pipe gate</span></div>
+        <div class="hero-ticks" id="ticks"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marq" aria-hidden="true">
+  <div class="marq-track">
+    <span>Chain Link <i></i> Barbwire <i></i> Hog Panel <i></i> Chicken Wire <i></i> Repairs <i></i> Free Estimates <i></i> Veteran Owned <i></i></span>
+    <span>Chain Link <i></i> Barbwire <i></i> Hog Panel <i></i> Chicken Wire <i></i> Repairs <i></i> Free Estimates <i></i> Veteran Owned <i></i></span>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="sec intro" id="about" data-screen-label="02 About">
+  <div class="wrap grid">
+    <div class="intro-photo rv">
+      <div class="ph"><img src="../assets/p10.jpg" alt="The D&amp;C Fencing crew on a job site with their banner"></div>
+      <div class="tag">
+        <div class="stars"><i></i><i></i><i></i><i></i><i></i></div>
+        <b>Veteran owned &amp; operated</b>
+        <span>Amarillo, Texas</span>
+      </div>
+    </div>
+    <div>
+      <span class="eyebrow rv">Who we are</span>
+      <h2 class="disp rv rv-d1">We make<br>fencing <em>easy.</em></h2>
+      <p class="lede rv rv-d2">At D&amp;C Fencing, we'll help you through all your fencing needs. With professional, family‑oriented work, we make buying a fence a breeze in Amarillo.</p>
+      <div class="cols rv rv-d3">
+        <p>We know how to install and repair a fence so it lasts as long as possible. A sturdy fence gives you privacy and clearly separates your property into the spaces you need. We take care of everything.</p>
+        <p>From chain link and barbwire to hog panel and chicken wire, we'll give you advice, repairs and installation based on your budget, design or finish. We bring a professional atmosphere to every job and always strive for perfection.</p>
+      </div>
+      <div class="pillars rv">
+        <div><span>01</span><b>Integrity</b></div>
+        <div><span>02</span><b>Fairness</b></div>
+        <div><span>03</span><b>Honesty</b></div>
+        <div><span>04</span><b>Responsibility</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FENCE TYPES -->
+<section class="sec types" id="fences" data-screen-label="03 Fences">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">What we build</span><h2 class="disp rv rv-d1">Fences for<br>every property</h2></div>
+      <p class="rv rv-d2">Residential yards, pastures and coops. Tell us what you need to keep in, keep out, or mark off, and we'll match the right fence to the job.</p>
+    </div>
+    <div class="board">
+      <ul class="tlist" id="tlist">
+        <li class="on" data-i="0">
+          <button><span class="n">01</span><h3>Chain Link</h3><i class="plus"></i></button>
+          <div class="body"><div>
+            <p>Mark your property line, add security or improve how your home looks. We'll help you choose the chain link fence that fits your property and style, then install it straight and solid.</p>
+            <div class="chips"><span class="chip">Residential</span><span class="chip">Commercial</span><span class="chip">Gates</span></div>
+          </div></div>
+        </li>
+        <li data-i="1">
+          <button><span class="n">02</span><h3>Barbwire</h3><i class="plus"></i></button>
+          <div class="body"><div>
+            <p>A smooth, efficient fencing process with no stress or hassle. We make sure everybody stays safe and happy, so your land is built on a solid foundation.</p>
+            <div class="chips"><span class="chip">Ranch &amp; pasture</span><span class="chip">T‑posts</span><span class="chip">Property lines</span></div>
+          </div></div>
+        </li>
+        <li data-i="2">
+          <button><span class="n">03</span><h3>Hog Panel</h3><i class="plus"></i></button>
+          <div class="body"><div>
+            <p>Also called cattle or livestock panels, hog wire panels are steel rods welded at every intersection and galvanized with zinc. They're strong, rigid and made to hold up.</p>
+            <div class="chips"><span class="chip">Livestock</span><span class="chip">Galvanized steel</span><span class="chip">Gardens</span></div>
+          </div></div>
+        </li>
+        <li data-i="3">
+          <button><span class="n">04</span><h3>Chicken Wire</h3><i class="plus"></i></button>
+          <div class="body"><div>
+            <p>Chicken wire, or poultry netting, is a mesh of thin, flexible, galvanized steel wire. It's the go‑to for fencing in fowl and protecting coops and runs.</p>
+            <div class="chips"><span class="chip">Poultry</span><span class="chip">Coops &amp; runs</span></div>
+          </div></div>
+        </li>
+        <li data-i="4">
+          <button><span class="n">05</span><h3>Repairs</h3><i class="plus"></i></button>
+          <div class="body"><div>
+            <p>Leaning posts, sagging wire, storm damage: we repair fences so they last as long as possible. Call us and we'll come take a look.</p>
+            <div class="chips"><span class="chip">Post resets</span><span class="chip">Re‑stretching</span><span class="chip">Replacement</span></div>
+          </div></div>
+        </li>
+      </ul>
+      <div class="tview" id="tview">
+        <figure class="on"><img src="../assets/p23.jpg" alt="Chain link fence installed by D&amp;C"><figcaption><b>Chain Link</b><span>D&amp;C job site</span></figcaption></figure>
+        <figure><img src="../assets/p19.jpg" alt="Barbwire on T-posts"><figcaption><b>Barbwire</b><span>D&amp;C job site</span></figcaption></figure>
+        <figure><img src="../assets/s_hog1.jpg" alt="Hog panel fence"><figcaption><b>Hog Panel</b><span>Reference style</span></figcaption></figure>
+        <figure><img src="../assets/s_chicken.jpg" alt="Chicken wire coop"><figcaption><b>Chicken Wire</b><span>Reference style</span></figcaption></figure>
+        <figure><img src="../assets/p15.jpg" alt="Crew member setting a post"><figcaption><b>Repairs</b><span>D&amp;C job site</span></figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section class="sec ba" data-screen-label="04 Before After">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">From posts to finished line</span><h2 class="disp rv rv-d1">Drag to see<br>the difference</h2></div>
+      <p class="rv rv-d2">Real D&amp;C jobs, start to finish. Posts set and plumb, fabric stretched tight, the line left clean.</p>
+    </div>
+    <div class="ba-wrap">
+      <div class="ba-stage rv" id="ba" style="--x:50%">
+        <img class="before" id="baB" src="../assets/p3.jpg" alt="Before: posts set">
+        <img class="after" id="baA" src="../assets/p4.jpg" alt="After: finished chain link fence">
+        <span class="lbl l">Before</span><span class="lbl r">After</span>
+        <i class="bar"></i><i class="knob"></i>
+      </div>
+      <div class="ba-side rv rv-d1">
+        <ol>
+          <li><div><b>Lay out the line</b><span>Property line marked and measured.</span></div></li>
+          <li><div><b>Set the posts</b><span>Holes dug, posts set and plumbed.</span></div></li>
+          <li><div><b>Hang &amp; stretch</b><span>Fabric or wire pulled tight and tied off.</span></div></li>
+        </ol>
+        <div>
+          <div class="mono" style="color:#9eabbe;margin-bottom:12px">Choose a project</div>
+          <div class="ba-thumbs" id="baThumbs">
+            <button class="on"><img class="af" src="../assets/p4.jpg" alt="Project 1"><img class="bf" hidden src="../assets/p3.jpg" alt=""></button>
+            <button><img class="af" src="../assets/p5.jpg" alt="Project 2"><img class="bf" hidden src="../assets/p2.jpg" alt=""></button>
+            <button><img class="af" src="../assets/p19.jpg" alt="Project 3"><img class="bf" hidden src="../assets/p8.jpg" alt=""></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK GALLERY -->
+<section class="sec" id="work" data-screen-label="05 Our Work">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">Recent work</span><h2 class="disp rv rv-d1">Out in the field</h2></div>
+      <p class="rv rv-d2">Every photo here is from a real D&amp;C Fencing job around Amarillo. Click any image to see it full size.</p>
+    </div>
+    <div class="gal-filters rv" id="filters">
+      <button class="on" data-f="all">All projects</button>
+      <button data-f="chain">Chain link</button>
+      <button data-f="ranch">Ranch &amp; barbwire</button>
+      <button data-f="crew">The crew</button>
+    </div>
+    <div class="gal" id="gal">
+      <a class="g-a" data-f="ranch" href="../assets/p7.jpg"><img src="../assets/p7.jpg" alt="Wood posts and pipe gate" loading="lazy"><span class="cap"><span>Wood posts &amp; pipe gate</span><span>Ranch</span></span></a>
+      <a class="g-b" data-f="chain" href="../assets/p25.jpg"><img src="../assets/p25.jpg" alt="Chain link along a home" loading="lazy"><span class="cap"><span>Chain link run</span><span>Residential</span></span></a>
+      <a class="g-c" data-f="crew" href="../assets/p15.jpg"><img src="../assets/p15.jpg" alt="Setting a post" loading="lazy"><span class="cap"><span>Setting posts</span><span>Crew</span></span></a>
+      <a class="g-d" data-f="ranch" href="../assets/p21.jpg"><img src="../assets/p21.jpg" alt="Wood brace post" loading="lazy"><span class="cap"><span>Brace post</span><span>Ranch</span></span></a>
+      <a class="g-e" data-f="chain" href="../assets/p23.jpg"><img src="../assets/p23.jpg" alt="Chain link corner" loading="lazy" style="object-position:50% 30%"><span class="cap"><span>Chain link corner</span><span>Residential</span></span></a>
+      <a class="g-f" data-f="ranch" href="../assets/p6.jpg"><img src="../assets/p6.jpg" alt="Barbwire line" loading="lazy"><span class="cap"><span>T‑post line</span><span>Ranch</span></span></a>
+      <a class="g-g" data-f="crew" href="../assets/p12.jpg"><img src="../assets/p12.jpg" alt="Customers with the D&amp;C auger" loading="lazy"><span class="cap"><span>On the job</span><span>Crew</span></span></a>
+      <a class="g-h" data-f="chain" href="../assets/p27.jpg"><img src="../assets/p27.jpg" alt="Finished chain link fence at dusk" loading="lazy"><span class="cap"><span>Finished line</span><span>Residential</span></span></a>
+      <a class="g-b" data-f="ranch" href="../assets/p9.jpg"><img src="../assets/p9.jpg" alt="T-posts laid out" loading="lazy"><span class="cap"><span>Material laid out</span><span>Ranch</span></span></a>
+      <a class="g-b" data-f="chain" href="../assets/p5.jpg"><img src="../assets/p5.jpg" alt="Chain link along a driveway" loading="lazy"><span class="cap"><span>Chain link &amp; drive</span><span>Residential</span></span></a>
+      <a class="g-b" data-f="ranch" href="../assets/p26.jpg"><img src="../assets/p26.jpg" alt="Pipe gate and posts staged" loading="lazy"><span class="cap"><span>Gate &amp; posts staged</span><span>Ranch</span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CREW -->
+<section class="crew" data-screen-label="06 Crew">
+  <div class="grid">
+    <div class="crew-photo"><img src="../assets/p13.jpg" alt="D&amp;C Fencing owners with banner on a job site"></div>
+    <div class="crew-txt">
+      <span class="eyebrow rv">Our standard</span>
+      <h2 class="disp rv rv-d1">Committed to<br><em>excellence.</em></h2>
+      <p class="rv rv-d2">We hold to a standard of integrity built on fairness, honesty and personal responsibility. What sets us apart is the quality of service we bring to our customers. Knowing our trade and having the skill to do it right is what makes us professionals. Above all, we look out for our customers' interests and make their concerns the center of our business.</p>
+      <div class="vals rv rv-d3">
+        <div><i></i>Veteran owned</div>
+        <div><i></i>Family oriented</div>
+        <div><i></i>Free estimates</div>
+        <div><i></i>Credit cards accepted</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote" data-screen-label="07 Review">
+  <div class="wrap">
+    <div class="stars rv"><i></i><i></i><i></i><i></i><i></i></div>
+    <blockquote class="rv rv-d1">“The fence is beautiful and <em>very sturdy.</em>”</blockquote>
+    <cite class="rv rv-d2">D&amp;C Fencing customer · via Yelp</cite>
+    <div class="rating rv rv-d3"><b>5.0</b><span>Overall rating<br>on HomeAdvisor</span></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="sec proc" id="process" data-screen-label="08 Process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">How it works</span><h2 class="disp rv rv-d1">Three steps<br>to a new fence</h2></div>
+      <p class="rv rv-d2">No stress, no hassle. One phone call gets it started, and we handle the rest.</p>
+    </div>
+    <div class="steps">
+      <div class="step rv">
+        <div class="num">01</div>
+        <h3>Call or message</h3>
+        <p>Call or text 806‑282‑6328, or send us a message. Tell us about your property and what you need fenced.</p>
+        <div class="ph"><img src="../assets/p24.jpg" alt="D&amp;C team" style="object-position:50% 35%"></div>
+      </div>
+      <div class="step rv rv-d1">
+        <div class="num">02</div>
+        <h3>Free estimate</h3>
+        <p>We'll give you advice and a free estimate based on your budget, design and finish. No pressure.</p>
+        <div class="ph"><img src="../assets/p2.jpg" alt="Laying out the fence line" style="object-position:50% 60%"></div>
+      </div>
+      <div class="step rv rv-d2">
+        <div class="num">03</div>
+        <h3>We build it</h3>
+        <p>Posts set, wire stretched, site cleaned up. We take care of everything, built to last as long as possible.</p>
+        <div class="ph"><img src="../assets/p4.jpg" alt="Finished chain link fence" style="object-position:50% 60%"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec contact" id="contact" data-screen-label="09 Contact">
+  <div class="wrap grid">
+    <div>
+      <span class="eyebrow rv">Free estimates</span>
+      <h2 class="disp rv rv-d1">Let's build<br>your <em>fence.</em></h2>
+      <a class="bigphone rv rv-d2" href="tel:+18062826328">806‑282‑6328</a>
+      <div class="cinfo rv rv-d3">
+        <div>
+          <h4>Hours</h4>
+          <ul class="hours" id="hours">
+            <li data-d="1"><span>Monday</span><span>8 AM – 8 PM</span></li>
+            <li data-d="2"><span>Tuesday</span><span>8 AM – 8 PM</span></li>
+            <li data-d="3"><span>Wednesday</span><span>8 AM – 8 PM</span></li>
+            <li data-d="4"><span>Thursday</span><span>8 AM – 8 PM</span></li>
+            <li data-d="5"><span>Friday</span><span>8 AM – 8 PM</span></li>
+            <li data-d="6"><span>Saturday</span><span>9:30 AM – 7 PM</span></li>
+            <li data-d="0"><span>Sunday</span><span>Closed</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Location</h4>
+          <p>Amarillo, Texas<br><span class="mono" style="color:#7d8ba0">35.2770° N · 101.8197° W</span></p>
+          <h4 style="margin-top:28px">Email</h4>
+          <a href="mailto:dakota.brundige1993@gmail.com" style="word-break:break-all">dakota.brundige1993@gmail.com</a>
+          <h4 style="margin-top:28px">Follow</h4>
+          <a href="https://www.facebook.com/105787298275407" target="_blank" rel="noopener">Facebook ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="form rv rv-d1" id="formBox">
+      <form id="estForm">
+        <h3>Request an estimate</h3>
+        <p class="sub">Tell us a bit about the job and we'll get back to you.</p>
+        <div class="frow">
+          <div class="field"><label for="fn">First name</label><input id="fn" name="first" required></div>
+          <div class="field"><label for="ln">Last name</label><input id="ln" name="last"></div>
+        </div>
+        <div class="frow">
+          <div class="field"><label for="ph">Phone</label><input id="ph" name="phone" type="tel" required></div>
+          <div class="field"><label for="em">Email</label><input id="em" name="email" type="email"></div>
+        </div>
+        <div class="field">
+          <label>Fence type</label>
+          <div class="ftype">
+            <input type="radio" name="type" id="t1" value="Chain link" checked><label for="t1">Chain link</label>
+            <input type="radio" name="type" id="t2" value="Barbwire"><label for="t2">Barbwire</label>
+            <input type="radio" name="type" id="t3" value="Hog panel"><label for="t3">Hog panel</label>
+            <input type="radio" name="type" id="t4" value="Chicken wire"><label for="t4">Chicken wire</label>
+            <input type="radio" name="type" id="t5" value="Repair"><label for="t5">Repair</label>
+          </div>
+        </div>
+        <div class="field"><label for="msg">Tell us about your project</label><textarea id="msg" name="msg" placeholder="Approximate length, location, gates needed…"></textarea></div>
+        <button class="btn btn-red" type="submit">Send Request <i class="arr"></i></button>
+        <p class="fine">Prefer to talk? Call or text <a href="tel:+18062826328" style="color:var(--red);font-weight:600">806‑282‑6328</a></p>
+      </form>
+      <div class="ok">
+        <div class="stars" style="color:var(--red)"><i></i><i></i><i></i><i></i><i></i></div>
+        <b>Thank you!</b>
+        <p style="color:#5b6676">Your email app should open with your request ready to send.<br>We'll be in touch soon.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fbrand"><img src="../assets/logo.png" alt="D&amp;C Fencing"><div><b>D&amp;C Fencing</b><span class="mono" style="color:#7d8ba0">Veteran owned · Amarillo, TX</span></div></div>
+      <div><h5>Fences</h5><ul><li><a href="#fences">Chain link</a></li><li><a href="#fences">Barbwire</a></li><li><a href="#fences">Hog panel</a></li><li><a href="#fences">Chicken wire</a></li><li><a href="#fences">Repairs</a></li></ul></div>
+      <div><h5>Company</h5><ul><li><a href="#about">About</a></li><li><a href="#work">Our work</a></li><li><a href="#process">Process</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li><a href="tel:+18062826328">806‑282‑6328</a></li><li><a href="mailto:dakota.brundige1993@gmail.com">Email us</a></li><li><a href="https://www.facebook.com/105787298275407" target="_blank" rel="noopener">Facebook ↗</a></li></ul></div>
+    </div>
+    <div class="fbig" aria-hidden="true">D&amp;C Fencing</div>
+    <div class="fbot"><span>© <span id="yr"></span> D&amp;C Fencing · Amarillo, Texas</span><span>Free estimates · Credit cards accepted</span></div>
+  </div>
+</footer>
+
+<div class="callbar"><a href="tel:+18062826328">Call Now</a><a href="#contact">Free Estimate</a></div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true">
+  <button class="x" aria-label="Close">✕</button>
+  <button class="pv" aria-label="Previous">←</button>
+  <img id="lbImg" alt="">
+  <button class="nx" aria-label="Next">→</button>
+  <div class="lb-cap" id="lbCap"></div>
+</div>
+
+<script>
+(function(){
+  // nav shadow + menu
+  const nav=document.getElementById('nav');
+  addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40),{passive:true});
+  document.getElementById('burger').onclick=()=>document.body.classList.toggle('menu-open');
+  document.querySelectorAll('.mmenu a').forEach(a=>a.onclick=()=>document.body.classList.remove('menu-open'));
+
+  // active nav link
+  const links=[...document.querySelectorAll('.nav ul a')];
+  const io0=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id))}}),{rootMargin:'-45% 0px -50% 0px'});
+  ['fences','work','about','process','contact'].forEach(id=>io0.observe(document.getElementById(id)));
+
+  // open now (America/Chicago)
+  const hrs={0:null,1:[8,20],2:[8,20],3:[8,20],4:[8,20],5:[8,20],6:[9.5,19]};
+  try{
+    const p=new Intl.DateTimeFormat('en-US',{timeZone:'America/Chicago',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
+    const wd=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.find(x=>x.type==='weekday').value);
+    const h=+p.find(x=>x.type==='hour').value%24+(+p.find(x=>x.type==='minute').value)/60;
+    const r=hrs[wd];const open=r&&h>=r[0]&&h<r[1];
+    document.getElementById('openTxt').textContent=open?'Open now · until '+(wd===6?'7 PM':'8 PM'):'Closed now · call or text anytime';
+    document.getElementById('openDot').classList.toggle('off',!open);
+    const li=document.querySelector('#hours li[data-d="'+wd+'"]');li&&li.classList.add('today');
+  }catch(e){}
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  // hero slides
+  const slides=[...document.querySelectorAll('#heroSlides .slide')],ticks=document.getElementById('ticks');
+  let hi=0,ht;
+  slides.forEach((s,i)=>{const b=document.createElement('button');b.setAttribute('aria-label','Slide '+(i+1));b.innerHTML='<i></i>';b.onclick=()=>go(i);ticks.appendChild(b)});
+  function go(i){hi=i;slides.forEach((s,j)=>s.classList.toggle('on',j===i));[...ticks.children].forEach((b,j)=>{b.classList.remove('on');void b.offsetWidth;b.classList.toggle('on',j===i)});
+    document.getElementById('capT').innerHTML=slides[i].dataset.cap;document.getElementById('capK').textContent=slides[i].dataset.k;clearTimeout(ht);ht=setTimeout(()=>go((hi+1)%slides.length),6000)}
+  go(0);
+
+  // fence types
+  const items=[...document.querySelectorAll('#tlist li')],figs=[...document.querySelectorAll('#tview figure')];
+  items.forEach((li,i)=>{const b=li.querySelector('button');const act=()=>{items.forEach((x,j)=>x.classList.toggle('on',j===i));figs.forEach((f,j)=>f.classList.toggle('on',j===i))};b.onclick=act;b.onmouseenter=()=>{if(matchMedia('(hover:hover)').matches)act()}});
+
+  // before/after
+  const ba=document.getElementById('ba');let drag=false;
+  const setX=cx=>{const r=ba.getBoundingClientRect();const x=Math.max(0,Math.min(100,(cx-r.left)/r.width*100));ba.style.setProperty('--x',x+'%')};
+  ba.addEventListener('pointerdown',e=>{drag=true;ba.setPointerCapture(e.pointerId);setX(e.clientX)});
+  ba.addEventListener('pointermove',e=>{if(drag)setX(e.clientX)});
+  ba.addEventListener('pointerup',()=>drag=false);ba.addEventListener('pointercancel',()=>drag=false);
+  ba.tabIndex=0;ba.addEventListener('keydown',e=>{const c=parseFloat(ba.style.getPropertyValue('--x'))||50;if(e.key==='ArrowLeft')ba.style.setProperty('--x',Math.max(0,c-4)+'%');if(e.key==='ArrowRight')ba.style.setProperty('--x',Math.min(100,c+4)+'%')});
+  // intro sweep
+  new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){o.disconnect();let t0=null;const f=t=>{t0=t0||t;const k=Math.min(1,(t-t0)/1600);const v=50+Math.sin(k*Math.PI*2)*22*(1-k);ba.style.setProperty('--x',v+'%');if(k<1)requestAnimationFrame(f)};requestAnimationFrame(f)}}),{threshold:.5}).observe(ba);
+  document.querySelectorAll('#baThumbs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#baThumbs button').forEach(x=>x.classList.toggle('on',x===b));document.getElementById('baB').src=b.querySelector('.bf').src;document.getElementById('baA').src=b.querySelector('.af').src;ba.style.setProperty('--x','50%')});
+
+  // gallery filter + lightbox
+  const gl=[...document.querySelectorAll('#gal a')];
+  document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#filters button').forEach(x=>x.classList.toggle('on',x===b));const f=b.dataset.f;gl.forEach(a=>a.classList.toggle('hide',f!=='all'&&a.dataset.f!==f))});
+  const lb=document.getElementById('lb'),lbImg=document.getElementById('lbImg'),lbCap=document.getElementById('lbCap');let li=0;
+  const vis=()=>gl.filter(a=>!a.classList.contains('hide'));
+  const show=i=>{const v=vis();li=(i+v.length)%v.length;const a=v[li];lbImg.src=a.querySelector('img').src;const c=a.querySelectorAll('.cap span');lbCap.innerHTML='<b>'+String(li+1).padStart(2,'0')+' / '+String(v.length).padStart(2,'0')+'</b>'+c[0].textContent+' · '+c[1].textContent};
+  gl.forEach(a=>a.onclick=e=>{e.preventDefault();show(vis().indexOf(a));lb.classList.add('open')});
+  lb.querySelector('.x').onclick=()=>lb.classList.remove('open');
+  lb.querySelector('.pv').onclick=()=>show(li-1);lb.querySelector('.nx').onclick=()=>show(li+1);
+  lb.onclick=e=>{if(e.target===lb)lb.classList.remove('open')};
+  addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')lb.classList.remove('open');if(e.key==='ArrowLeft')show(li-1);if(e.key==='ArrowRight')show(li+1)});
+
+  // form -> mailto
+  document.getElementById('estForm').onsubmit=e=>{e.preventDefault();const d=new FormData(e.target);
+    const body=`Name: ${d.get('first')} ${d.get('last')}\nPhone: ${d.get('phone')}\nEmail: ${d.get('email')}\nFence type: ${d.get('type')}\n\n${d.get('msg')}`;
+    window.open('mailto:dakota.brundige1993@gmail.com?subject='+encodeURIComponent('Fence estimate request — '+d.get('type'))+'&body='+encodeURIComponent(body),'_blank');
+    document.getElementById('formBox').classList.add('sent')};
+
+  // reveal
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+})();
+</script>
+</body>
+</html>
